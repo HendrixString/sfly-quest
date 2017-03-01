@@ -22,7 +22,8 @@ drag logic with the help of your own custom `OnTouchListener`.
 harder, but might be more efficient). your call.
 
 ### Pit should be inside a very humble activity
-* the activity should have a pit layout inside and a button to add a point into pit.
+* the activity should have a pit layout inside and a button to add a point into pit. every new point that is added by this
+button should be added at the origin axis (0, 0) coordinate.
 * `Pit` should start with 5 different initial points.
 
 ### illustration of Pit
