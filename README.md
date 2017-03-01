@@ -13,7 +13,7 @@ that means Pit is responsive :)
 * `Pit` also has a very unique feature, the reordering feature which goes like this:
 if a user drags a point before or after another point, then Pit will change that point
 order and therefore the edges will still render beautifully.
-* Pit should have an interface to add point/s. every point is added at the origin axis (0, 0)
+* `Pit` should have an interface to add point/s. every point is added at the origin axis (0, 0)
 
 ### restrictions of `Pit`:
 * :warning: you **cannot use the built in Android drag functionality (i.e View.startDrag() etc..)**, you will have to write your own
@@ -23,7 +23,7 @@ harder, but might be more efficient). your call.
 
 ### Pit should be inside a very humble activity
 * the activity should have a pit layout inside and a button to add a point into pit.
-* Pit should start with 5 different initial points.
+* `Pit` should start with 5 different initial points.
 
 ### illustration of Pit
 <div align="center"><img src="https://vectr.com/hendrixstring/f1BaUwHxiD.png?width=320&height=320&select=f1BaUwHxiDpage0"></div>
